@@ -9,6 +9,10 @@
 This repository contains the code for **Self-Reflective Debate for Contextual Reliability (SR-DCR)**, a lightweight and interpretable framework for resolving conflicts between a language model’s parametric memory and external contextual input.
 
 SR-DCR improves robustness to misleading context while maintaining accuracy on trustworthy passages. It combines token-level self-confidence with an asymmetric multi-agent debate to determine when to trust retrieved context in open-domain QA tasks.
+<p align="center">
+  <img src="fig.jpg" width="600">
+</p>
+
 
 ## 🌟 Key Features
 
@@ -27,10 +31,6 @@ SR-DCR operates in three stages:
    The model computes its confidence in a prior-only answer (no context).
 3. **Final Answer Selection**  
    The final answer is selected using both confidence score and a judge’s verdict on context reliability.
-
-<p align="center">
-  <img src="fig.jpg" width="600">
-</p>
 
 ## 📊 Results on ClashEval
 
