@@ -1,4 +1,4 @@
-# 🧠 Self-Reflective Debates: When to Trust Context in LLMs
+# 🧠 When to Trust Context in LLMs
 
 ## 📜 Paper
 
